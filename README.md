@@ -1,72 +1,76 @@
 # 🎵 Spotify Analytics Dashboard
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-The **Spotify Analytics Dashboard** is an interactive Power BI project designed to analyze Spotify music data and discover insights related to tracks, artists, albums, genres, popularity, and audio features.
+This project is an interactive **Spotify Analytics Dashboard** developed using **Microsoft Power BI** for data analysis and interactive data visualization.
 
-This project demonstrates the complete data analysis process, including data cleaning, transformation, analysis, DAX calculations, and interactive dashboard creation using **Microsoft Power BI**.
+The project focuses on analyzing Spotify music data, including tracks, artists, albums, genres, popularity, explicit content, track duration, and audio features such as danceability, energy, valence, loudness, liveness, instrumentalness, and acousticness.
 
 ---
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are:
-
 - Analyze Spotify tracks, artists, and albums.
 - Explore music distribution across different genres.
 - Analyze track popularity and popularity categories.
 - Compare explicit and non-explicit tracks.
-- Analyze audio features such as danceability, energy, valence, loudness, liveness, instrumentalness, and acousticness.
-- Identify top artists and popular tracks.
+- Analyze audio features across different genres and artists.
+- Identify top artists based on the number of tracks.
+- Identify popular songs and analyze their popularity.
 - Analyze track duration across different genres.
+- Build an interactive Power BI dashboard for music data insights.
 
 ---
 
-## 📌 Key Performance Indicators
+# 📊 Key Performance Indicators
 
-The dashboard provides an overview of the following KPIs:
+The dashboard includes the following KPIs:
 
-- 🎵 Total Songs
-- 🎤 Total Artists
-- 💿 Total Albums
-- ⏱️ Total Minutes
-- 😊 Average Valence
-
-### Dataset Summary
-
-- **Total Songs:** 18K+
-- **Total Artists:** 5K+
-- **Total Albums:** 9K+
-- **Total Music Duration:** 72K+ Minutes
-- **Average Valence:** 47%
+- 🎵 **Total Songs**
+- 🎤 **Total Artists**
+- 💿 **Total Albums**
+- ⏱️ **Total Minutes**
+- 😊 **Average Valence**
 
 ---
 
-## 📈 Dashboard Features
+# 📈 Dashboard Analysis
 
-### 🎤 Artist Analysis
+## 🎤 Artist Analysis
 
 - Top Artists by Number of Tracks
-- Artist-based music analysis
-- Comparison of artists using different audio features
+- Artist-wise Music Analysis
+- Artist-based Audio Feature Analysis
+- Loudness Analysis by Artists
+- Liveness and Instrumentalness Analysis
 
-### 🎵 Genre Analysis
+---
+
+## 🎵 Genre Analysis
 
 - Track Distribution by Genre
-- Popularity by Genre
+- Genre-wise Music Analysis
 - Danceability by Genre
 - Energy by Genre
 - Average Track Duration by Genre
+- Comparison of Audio Features Across Genres
 
-### 📊 Popularity Analysis
+---
+
+## 📊 Popularity Analysis
 
 - Popularity Category Distribution
-- Analysis of Low, Moderate, High, and Very High popularity tracks
+- Low Popularity Tracks
+- Moderate Popularity Tracks
+- High Popularity Tracks
+- Very High Popularity Tracks
 - Top Popular Tracks
 
-### 🎧 Audio Features Analysis
+---
 
-The dashboard analyzes the following Spotify audio features:
+## 🎧 Audio Features Analysis
+
+The dashboard analyzes different Spotify audio features, including:
 
 - 💃 Danceability
 - ⚡ Energy
@@ -76,52 +80,146 @@ The dashboard analyzes the following Spotify audio features:
 - 🎤 Liveness
 - 🎧 Acousticness
 
-### 🔞 Explicit Content Analysis
+---
+
+## 🔞 Explicit Content Analysis
 
 The dashboard compares:
 
 - Explicit Tracks
 - Non-Explicit Tracks
-
-This helps understand the content distribution within the Spotify dataset.
+- Explicit Content Distribution
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+# 🧹 Data Cleaning
 
-The dataset was cleaned and prepared before creating the Power BI dashboard.
+The following data preparation steps were performed:
 
-The following steps were performed:
-
+- Loaded the Spotify dataset.
 - Checked for missing values.
 - Checked for duplicate records.
-- Cleaned and formatted data columns.
+- Cleaned and formatted relevant columns.
 - Converted track duration into minutes.
 - Created popularity categories.
-- Prepared data for analysis and visualization.
-- Created calculated measures using DAX.
+- Prepared the dataset for analysis and visualization.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+# 📊 Data Analysis
 
-- **Microsoft Power BI**
-- **Power Query**
-- **DAX**
-- **CSV**
-- **Data Cleaning**
-- **Data Transformation**
-- **Data Analysis**
-- **Data Visualization**
+The Spotify dataset was analyzed to understand music characteristics and patterns.
+
+The analysis includes:
+
+- Artist-wise analysis
+- Genre-wise analysis
+- Popularity analysis
+- Explicit content analysis
+- Track duration analysis
+- Danceability analysis
+- Energy analysis
+- Valence analysis
+- Loudness analysis
+- Liveness analysis
+- Instrumentalness analysis
+- Acousticness analysis
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Tools & Technologies Used
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- CSV
+- Data Cleaning
+- Data Transformation
+- Data Analysis
+- Data Visualization
+
+---
+
+# 📂 Dataset Features
+
+The dataset contains Spotify music-related information including:
+
+- Track ID
+- Track Name
+- Artist Name
+- Album Name
+- Track Genre
+- Popularity
+- Explicit Label
+- Track Duration
+- Danceability
+- Energy
+- Valence
+- Loudness
+- Liveness
+- Instrumentalness
+- Acousticness
+
+---
+
+# 📄 Project Files
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides interactive analysis of:
+
+- Total Songs
+- Total Artists
+- Total Albums
+- Total Minutes
+- Average Valence
+- Artist Analysis
+- Genre Analysis
+- Popularity Analysis
+- Explicit Content Analysis
+- Audio Features Analysis
+
+---
+
+# 📸 Dashboard Preview
+
+The complete dashboard preview is available in the PDF file below.
+
+## 📄 Dashboard PDF
+
+📥 [View Spotify Analytics Dashboard](./Spotify%20Analytics%20Dashboard.pdf)
+
+---
+
+
+
+
+
+
+# 📁 Project Structure
 
 ```text
-Spotify-Analytics-Dashboard/
+SPOTIFY-ANALYTICS-DASHBOARD/
 │
-├── Spotify Analytics Dashboard.pdf
-├── Spotify Analytics Dashboard.pbit
 ├── spotify_cleaned.csv
+├── Spotify Analytics Dashboard.pbit
+├── Spotify Analytics Dashboard.pdf
 └── README.md
+
+```
+
+---
+
+# 👨‍💻 Author
+
+**Akash Singh**  
+B.Tech Student | Aspiring Data Analyst
+
+## 📫 Connect With Me
+
+- **GitHub:** [AKASHPATEL-89](https://github.com/AKASHPATEL-89)
+- **LinkedIn:** [Akash Singh](https://www.linkedin.com/in/akash-singh-347a8a318/)
+
+---
+
+⭐ If you found this project useful, feel free to **star the repository!**
