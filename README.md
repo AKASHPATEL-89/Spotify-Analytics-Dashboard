@@ -150,39 +150,61 @@ The dashboard compares:
 This provides an overview of content classification within the dataset.
 
 ---
+## 💡 Key Data Insights
 
-## 💡 Data Insights
+The Spotify Analytics Dashboard transforms music data into meaningful insights by analyzing artist representation, genre characteristics, track popularity, and Spotify audio features.
 
-The dashboard is designed to answer questions such as:
+### 🎤 Artist Insights
 
-### Artist Insights
+* **Artist Representation:** Identifies the artists with the highest number of tracks in the dataset, highlighting the most represented artists.
+* **Audio Profiles:** Compares artists based on danceability, energy, valence, loudness, liveness, instrumentalness, and acousticness.
+* **Loudness Analysis:** Reveals differences in average loudness across artists and helps identify variations in track intensity.
+* **Musical Characteristics:** Highlights artists with relatively higher instrumentalness and liveness, providing deeper insight into their musical styles.
 
-* Which artists have the highest number of tracks?
-* Which artists have different audio-feature profiles?
-* How does loudness vary between artists?
-* Which artists have higher instrumentalness or liveness?
+### 🎵 Genre Insights
 
-### Genre Insights
+* **Genre Distribution:** Identifies the most represented genres based on track count.
+* **Danceability:** Compares genres to determine which categories have higher average danceability.
+* **Energy:** Highlights genres with higher average energy and more intense musical characteristics.
+* **Track Duration:** Compares average track duration across genres to identify differences in typical song length.
+* **Genre Profiles:** Demonstrates that different genres have distinct combinations of audio characteristics.
 
-* Which genres contain the most tracks?
-* Which genres have higher danceability?
-* Which genres have higher energy?
-* Which genres have longer average track durations?
+### ⭐ Popularity Insights
 
-### Popularity Insights
+* **Popularity Distribution:** Shows how tracks are distributed across low, moderate, high, and very-high popularity categories.
+* **Top Tracks:** Identifies the tracks receiving the highest popularity scores within the dataset.
+* **Artist Concentration:** Allows analysis of whether highly popular tracks are concentrated among a smaller group of artists.
+* **Genre Concentration:** Shows which genres contribute more strongly to highly popular tracks.
+* **Popularity Comparison:** Provides a clear view of how track popularity varies across artists and genres.
 
-* How are tracks distributed across popularity categories?
-* Which tracks have the highest popularity?
-* Are highly popular tracks concentrated in particular genres or artists?
+### 🎧 Audio Feature Insights
 
-### Audio Insights
+* **Energy:** Compares average energy levels across genres to identify differences in musical intensity.
+* **Danceability:** Highlights genres with stronger rhythmic and dance-oriented characteristics.
+* **Valence:** Compares musical positivity across genres and categories.
+* **Acousticness:** Identifies genres with relatively stronger acoustic characteristics.
+* **Instrumentalness:** Highlights genres and artists with a greater presence of instrumental-oriented tracks.
+* **Liveness:** Provides insight into tracks with stronger live-performance characteristics.
+* **Feature Relationships:** Combining multiple audio features provides a more complete understanding of the musical profile of different genres and artists.
 
-* Which genres have higher average energy?
-* Which genres are more danceable?
-* How does valence differ across music categories?
-* How do acousticness and instrumentalness vary across genres?
+### 🔞 Explicit Content Insights
 
-> **Note:** These are analytical questions and findings supported by the dashboard. Specific numerical claims should be reported directly from the current dataset/dashboard rather than estimated.
+* **Content Distribution:** Compares explicit and non-explicit tracks within the dataset.
+* **Genre Variation:** Enables comparison of explicit-content representation across different genres.
+* **Content Classification:** Provides a clear overview of how tracks are classified based on explicit content.
+
+### 📊 Overall Business Insights
+
+The dashboard enables stakeholders and analysts to:
+
+* Identify the **most represented artists and genres**.
+* Understand **track popularity patterns**.
+* Compare **musical characteristics across genres and artists**.
+* Identify differences in **danceability, energy, valence, and other audio features**.
+* Analyze **track duration and content classification**.
+* Use interactive filters to perform **deeper exploratory analysis**.
+* Convert raw Spotify data into **clear, visual, and actionable information**.
+
 
 ---
 
